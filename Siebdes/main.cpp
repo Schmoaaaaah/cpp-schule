@@ -8,7 +8,7 @@ int main() {
         a[i]=i+1;
     }
     for (int i = 0; i <= 10000; i++){
-        if(a[i]!=1 && a[i] != 2){
+        if(a[i]!= 1 || a[i] != 2){
             int b = a[i]%2;
             if(b==0){
                 a[i]=0;
