@@ -4,8 +4,8 @@ using namespace std;
 
 int main() {
     int a[10000];
-    for (int i = 0; i <= 10000; i++){
-        a[i]=i+1;
+    for (int i = 0; i <= 10000-2; i++){
+        a[i]=i+2;
     }
     for (int i = 2; i <= 10000; i++){
         if(a[i] != 0){
